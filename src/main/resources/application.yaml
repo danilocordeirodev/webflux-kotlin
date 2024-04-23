@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: webflux-kotlin
+  r2dbc:
+    url: r2dbc:postgresql://localhost:15432/testdb
+    username: userpgd
+    password: userpgd
