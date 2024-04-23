@@ -1,7 +1,5 @@
 package com.example.webfluxkotlin.dto
 
-import com.example.webfluxkotlin.entity.Book
-
 fun BookRequest.toBook(): Book {
     return Book(
         title = this.title,
