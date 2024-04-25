@@ -1,7 +1,7 @@
 package com.example.webfluxkotlin.repository
 
+import com.example.webfluxkotlin.entity.User
 import kotlinx.coroutines.flow.Flow
-import org.springframework.boot.autoconfigure.security.SecurityProperties.User
 import org.springframework.data.r2dbc.repository.Query
 import org.springframework.data.repository.kotlin.CoroutineCrudRepository
 
